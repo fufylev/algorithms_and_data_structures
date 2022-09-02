@@ -3,7 +3,7 @@
 
 ---
 
-All algorithms are being written in Python 3 as I am most familiar with Python among suggested by "UC San Diego" languages.
+All algorithms are being written in Python 3 as I am most familiar with Python among languages suggested by "University of California San Diego".
 
 ---
 

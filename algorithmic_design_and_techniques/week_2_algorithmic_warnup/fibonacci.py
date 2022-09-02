@@ -1,4 +1,6 @@
 # Uses python3
+
+# the worst algorithm in terms of time execution
 def calc_fib(given_number):
     if given_number <= 1:
         return given_number
@@ -6,5 +8,17 @@ def calc_fib(given_number):
     return calc_fib(given_number - 1) + calc_fib(given_number - 2)
 
 
+# the fastest one
+def calc_fib_by_array(given_number):
+    array = [0] * (given_number+2)
+    array[0] = 0
+    array[1] = 1
+    for i in range(2, given_number+1):
+        array[i] = array[i-1]+array[i-2]
+    return array[given_number]
+
+
 n = int(input())
-print(calc_fib(n))
+print(calc_fib_by_array(n))
+
+

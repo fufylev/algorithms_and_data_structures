@@ -1,6 +1,8 @@
 import random
 
 
+# Maximum Pairwise Product
+
 def max_pairwise_product_fast(a):
     # n = int(input())
     # a = [int(x) for x in input().split()]

@@ -1,5 +1,7 @@
 # Uses python3
 
+# Fibonacci Number
+
 # the worst algorithm in terms of time execution
 def calc_fib(given_number):
     if given_number <= 1:

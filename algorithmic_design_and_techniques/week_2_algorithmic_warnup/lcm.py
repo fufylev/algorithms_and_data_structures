@@ -1,24 +1,25 @@
 # Uses python3
 
-def lcm_naive(a, b):
-    for l in range(1, a * b + 1):
-        if l % a == 0 and l % b == 0:
-            return l
+# Least Common Multiple
+def lcm_naive(first, second):
+    for number in range(1, first * second + 1):
+        if number % first == 0 and number % second == 0:
+            return number
 
-    return a * b
-
-
-def gcd_fast(a, b):
-    return a if b == 0 else gcd_fast(b, a % b)
+    return first * second
 
 
-def lcm_fast(a1, b1):
-    if a1 == 0 or b1 == 0:
+def gcd_fast(first, second):
+    return first if second == 0 else gcd_fast(second, first % second)
+
+
+def lcm_fast(first, second):
+    if first == 0 or second == 0:
         return 0
-    if a1 % b1 == 0 or b1 % a1 == 0:
-        return max(a1, b1)
+    if first % second == 0 or second % first == 0:
+        return max(first, second)
 
-    return a1 * b1 // gcd_fast(a1, b1)
+    return first * second // gcd_fast(first, second)
 
 
 a, b = map(int, input().split())

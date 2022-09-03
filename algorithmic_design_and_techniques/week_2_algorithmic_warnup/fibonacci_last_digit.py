@@ -1,7 +1,6 @@
 # Uses python3
 
-import sys
-
+# Last Digit of Fibonacci Number
 
 def get_fibonacci_last_digit_naive(n):
     if n <= 1:

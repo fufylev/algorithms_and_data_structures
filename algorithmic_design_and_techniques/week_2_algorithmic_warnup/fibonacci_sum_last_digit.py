@@ -29,15 +29,16 @@ From what I got that:
 """
 
 
-def fibonacci_sum_naive(n):
-    if n <= 1:
-        return n
+# given by course
+def fibonacci_sum_naive(given_number):
+    if given_number <= 1:
+        return given_number
 
     previous = 0
     current = 1
     sum = 1
 
-    for _ in range(n - 1):
+    for _ in range(given_number - 1):
         previous, current = current, previous + current
         sum += current
 
@@ -45,7 +46,6 @@ def fibonacci_sum_naive(n):
 
 
 def fibonacci_sum_fast(given_number):
-
     # The pisano period of module 10 is 60, so we can compute only for the reminder of [given_number] % 60
     computed_number = given_number if given_number <= 60 else given_number % 60
 

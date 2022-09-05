@@ -10,11 +10,12 @@ Task. Given an integer 𝑛, find the last digit of the sum 𝐹0 + 𝐹1 + · �
 Input Format. The input consists of a single integer 𝑛.
 Constraints. 0 ≤ 𝑛 ≤ 1014.
 Output Format. Output the last digit of 𝐹0 + 𝐹1 + · · · + 𝐹𝑛.
+Hint: Instead of computing this sum in a loop, try to come up with a formula for 𝐹0 + 𝐹1 + 𝐹2 + · · · + 𝐹𝑛. For
+this, play with small values of 𝑛. Then, use a solution for the previous problem.
 """
 
 """
-Hint: Instead of computing this sum in a loop, try to come up with a formula for 𝐹0 + 𝐹1 + 𝐹2 + · · · + 𝐹𝑛. For
-this, play with small values of 𝑛. Then, use a solution for the previous problem.
+Manual computations:
 
 Number:          0	1	2	3	4	5	6	7	8	9	10
 Fib(number):     0	1	1	2	3	5	8	13	21	34	55

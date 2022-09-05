@@ -43,9 +43,11 @@ def fibonacci_sum_naive(n):
     return sum % 10
 
 
-def get_fibonacci_last_digit_fast(given_number):
+def fibonacci_sum_fast(given_number):
+
     # The pisano period of module 10 is 60, so we can compute only for the reminder of [given_number] % 60
     computed_number = given_number if given_number <= 60 else given_number % 60
+
     a, b = 0, 1
 
     if computed_number <= 1:
@@ -58,5 +60,5 @@ def get_fibonacci_last_digit_fast(given_number):
 
 
 n = int(input())
-last_digit = get_fibonacci_last_digit_fast(2 + n)
+last_digit = fibonacci_sum_fast(2 + n)
 print(last_digit - 1 if last_digit != 0 else 9)

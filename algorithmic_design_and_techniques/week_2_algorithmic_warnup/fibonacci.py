@@ -12,15 +12,25 @@ def calc_fib(given_number):
 
 # the fastest one
 def calc_fib_by_array(given_number):
-    array = [0] * (given_number+2)
+    array = [0] * (given_number + 2)
     array[0] = 0
     array[1] = 1
-    for i in range(2, given_number+1):
-        array[i] = array[i-1]+array[i-2]
+    for i in range(2, given_number + 1):
+        array[i] = array[i - 1] + array[i - 2]
     return array[given_number]
+
+
+def _calc_fib_by_permutation(given_number):
+    a, b = 0, 1
+
+    if given_number <= 1:
+        return n
+
+    for i in range(2, n + 1):
+        b, a = a + b, b
+
+    return b
 
 
 n = int(input())
 print(calc_fib_by_array(n))
-
-

@@ -25,4 +25,5 @@ def get_fibonacci_last_digit_fast(given_number):
 
 
 n = int(input())
+
 print(get_fibonacci_last_digit_naive(n))

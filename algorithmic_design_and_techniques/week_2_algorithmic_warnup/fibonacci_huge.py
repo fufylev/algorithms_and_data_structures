@@ -24,9 +24,11 @@ def get_fibonacci_huge_naive(first, second):
 
 def calc_fib_by_permutation(given_number):
     a, b = 0, 1
+
     if given_number <= 1:
-        return n
-    for i in range(2, n + 1):
+        return given_number
+
+    for i in range(2, given_number + 1):
         b, a = a + b, b
 
     return b
@@ -44,13 +46,13 @@ def pisano_length(modulo):
 def get_fibonacci_huge_fast(given_number, modulo):
     a, b = 0, 1
     if given_number <= 1:
-        return n
-    for i in range(2, n + 1):
+        return given_number
+    for i in range(2, given_number + 1):
         b, a = (a + b) % modulo, b
 
     return b
 
 
-n, m = map(int, input().split())
-remainder = n % pisano_length(m)
+number, m = map(int, input().split())
+remainder = number % pisano_length(m)
 print(get_fibonacci_huge_naive(remainder, m))

@@ -26,14 +26,17 @@ def get_fibonacci_last_digit_naive(n):
 
 
 def get_fibonacci_last_digit_fast(given_number):
-    array = [0] * (given_number + 2)
-    array[0] = 0
-    array[1] = 1
+    a, b = 0, 1
+
+    if given_number <= 1:
+        return given_number
+
     for i in range(2, given_number + 1):
-        array[i] = (array[i - 1] + array[i - 2]) % 10
-    return array[given_number]
+        b, a = (a + b) % 10, b
+
+    return b
 
 
-n = int(input())
+number = int(input())
 
-print(get_fibonacci_last_digit_naive(n))
+print(get_fibonacci_last_digit_naive(number))

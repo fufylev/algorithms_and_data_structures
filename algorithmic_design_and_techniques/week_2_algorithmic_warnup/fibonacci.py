@@ -34,13 +34,13 @@ def _calc_fib_by_permutation(given_number):
     a, b = 0, 1
 
     if given_number <= 1:
-        return n
+        return given_number
 
-    for i in range(2, n + 1):
+    for i in range(2, given_number + 1):
         b, a = a + b, b
 
     return b
 
 
 n = int(input())
-print(calc_fib_by_array(n))
+print(_calc_fib_by_permutation(n))

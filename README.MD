@@ -5,7 +5,7 @@
 
 All algorithms are being written in Python 3 as I am most familiar with Python among languages suggested by "University of California San Diego".
 
-All functions which names ends with the word *"_naive"* are given by course materials as starter for the problem's solution - usually works but **too slow**
+All functions which names ends with the word ***"_naive"*** are given by course materials as starter for the problem's solution - usually works but **too slow**
 
 ---
 

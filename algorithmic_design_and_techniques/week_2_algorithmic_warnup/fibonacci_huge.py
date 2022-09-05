@@ -1,9 +1,12 @@
 # Uses python3
 
-# Problem Description
-# Task. Given two integers 𝑛 and 𝑚, output 𝐹𝑛 mod 𝑚 (that is, the remainder of 𝐹𝑛 when divided by 𝑚).
-# Input Format. The input consists of two integers 𝑛 and 𝑚 given on the same line (separated by a space).
-# Constraints. 1 ≤ 𝑛 ≤ 1018, 2 ≤ 𝑚 ≤ 105.
+""""""
+"""
+Problem Description
+Task. Given two integers 𝑛 and 𝑚, output 𝐹𝑛 mod 𝑚 (that is, the remainder of 𝐹𝑛 when divided by 𝑚).
+Input Format. The input consists of two integers 𝑛 and 𝑚 given on the same line (separated by a space).
+Constraints. 1 ≤ 𝑛 ≤ 1018, 2 ≤ 𝑚 ≤ 105.
+"""
 
 
 def get_fibonacci_huge_naive(first, second):

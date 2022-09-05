@@ -1,6 +1,16 @@
 # Uses python3
 
-# Last Digit of Fibonacci Number
+""""""
+"""
+Last Digit of Fibonacci Number
+
+Problem Description
+Task. Given an integer 𝑛, find the last digit of the 𝑛th Fibonacci number 𝐹𝑛 (that is, 𝐹𝑛 mod 10).
+Input Format. The input consists of a single integer 𝑛.
+Constraints. 0 ≤ 𝑛 ≤ 107.
+Output Format. Output the last digit of 𝐹𝑛.
+"""
+
 
 def get_fibonacci_last_digit_naive(n):
     if n <= 1:

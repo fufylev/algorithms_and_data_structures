@@ -1,6 +1,16 @@
 # Uses python3
 
-# Least Common Multiple
+""""""
+"""
+Least Common Multiple
+Problem Description
+Task. Given two integers 𝑎 and 𝑏, find their least common multiple.
+Input Format. The two integers 𝑎 and 𝑏 are given in the same line separated by space.
+Constraints. 1 ≤ 𝑎, 𝑏 ≤ 2 · 109.
+Output Format. Output the least common multiple of 𝑎 and 𝑏.
+"""
+
+
 def lcm_naive(first, second):
     for number in range(1, first * second + 1):
         if number % first == 0 and number % second == 0:

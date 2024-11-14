@@ -6,7 +6,7 @@ Least Common Multiple
 Problem Description
 Task. Given two integers 𝑎 and 𝑏, find their least common multiple.
 Input Format. The two integers 𝑎 and 𝑏 are given in the same line separated by space.
-Constraints. 1 ≤ 𝑎, 𝑏 ≤ 2 · 109.
+Constraints. 1 ≤ 𝑎, 𝑏 ≤ 2 · 10^9.
 Output Format. Output the least common multiple of 𝑎 and 𝑏.
 """
 

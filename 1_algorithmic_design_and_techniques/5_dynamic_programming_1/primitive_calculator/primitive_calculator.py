@@ -114,6 +114,8 @@ if __name__ == "__main__":
     # assert A1 == A
 
 """
+another way is:
+
 def minOperations(n):
     min_operations = [float("inf")]*(n + 1)
     min_operations[0: 2] = 0, 0

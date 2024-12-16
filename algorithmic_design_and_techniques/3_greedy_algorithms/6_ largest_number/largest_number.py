@@ -1,6 +1,5 @@
 # Uses python3
 
-import sys
 from typing import List
 
 """

@@ -1,5 +1,5 @@
 # Uses python3
-from typing import List, Dict
+from typing import List
 
 """
 Longest Common Subsequence of Three Sequences

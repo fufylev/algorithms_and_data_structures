@@ -18,7 +18,7 @@ For each algorithm you develop and implement, we have designed multiple tests to
 ---
 
 ### UCSanDiegoX's Algorithms and Data Structures MicroMasters® Program:
-#### 1. Algorithmic Design and Techniques (*finished*)
+#### 1. Algorithmic Design and Techniques (*finished*) - [Certificate](https://courses.edx.org/certificates/61e36e9fe9f1438cae4f9eafb49eadd9?_gl=1*1vdcb7m*_gcl_au*MjA5NzMwODc2Ny4xNzMwMzc3Mjg4*_ga*MjEyNzU4NjkwMy4xNzMwMzc3Mjg5*_ga_D3KS4KMDT0*MTczNTAyNTc2NC41OC4xLjE3MzUwMzEzODguNTkuMC4w)
 #### 2. Data Structures Fundamentals (*in progress*)
 #### 3. Graph Algorithms
 #### 4. NP-Complete Problems

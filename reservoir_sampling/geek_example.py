@@ -47,7 +47,7 @@ def selectKItems(stream, n, k):
 if __name__ == "__main__":
     stream = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
     n = len(stream);
-    k = 15;
+    k = 5;
     selectKItems(stream, n, k);
  
 # This code is contributed by mits 
